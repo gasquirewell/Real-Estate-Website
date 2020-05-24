@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Agency/mystyle.css">
+    
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="bar">
+            <a href="index.html">
+                <img src="/img/logo.svg" alt="Agency logo">
+            </a>
+
+            <nav id= "menu" class="menu">
+                <a href="/aboutus.html">About Us</a>
+                <a href="/blog.html">Blog</a>
+                <a href="/img/gallery.html">Gallery</a>
+                <a href="/contact.html"> Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Contact</h1>
+    <img src="/img/destacada.jpg" alt="picture">
+
+
+
+    <main class="main-contact container">
+        <form action="#">
+            <fieldset>
+
+                <label for="name"> Name:</label>
+                <input type="text" name="userName" id="name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="msg" cols="30"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Product Information</legend>
+                <label for="type">Type</label>
+                <select name="type" id="type">
+                    ,<option value="" disabled selected>---Select an Option---</option>
+                    <option value="buy">Buy Now</option>
+                    <option value="sell"> Sell</option>
+                </select>
+
+                <label for="number">Number</label>
+                <input type="number" name="numnber" id="number">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information </legend>
+
+                <label type="phone">Phone</label>
+                <input type="radio" name="phone" id="radio-phone">
+
+                <label for="email">Email</label>
+                <input type="radio" name="email" id="radio-email">
+
+                <p>if you want to be contacted via phone select a day and hour</p>
+
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date">
+                
+                <label for="hour">Hour:</label>
+                <input type="time" name="hour" id="time">
+            </fieldset>
+
+            
+            <div class="btn-form">
+            <input class="btn btn-green" type="submit">
+             </div>
+        </form>
+ </main>
+
+
+
+ <footer class="site-footer">
+    <div class="content-footer container">
+        <div class="footer-bar">
+            <nav class="menu">
+            <a href="/aboutus.html">About Us</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/img/gallery.html">Gallery</a>
+            <a href="/contact.html"> Contact Us</a>
+            </nav>
+         </div>
+        <div class="center-text"><p>All rights reserved 2020&copy; Gerry Squirewell </p></div>  
+    </div>
+</footer>
+
+</body>
+</html>
